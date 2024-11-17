@@ -1,0 +1,940 @@
+2024-11-17 15:34:04,332 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:34:04,332 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:34:04,335 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:34:04,335 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:34:04,335 - INFO - [main.py:612] - Starting FluxImageGenerator application
+2024-11-17 15:34:04,335 - INFO - [main.py:206] - Initializing FluxImageGenerator
+2024-11-17 15:34:04,336 - INFO - [main.py:209] - Starting FluxImageGenerator application
+2024-11-17 15:34:04,338 - CRITICAL - [main.py:621] - Application failed to start: 'FluxImageGenerator' object has no attribute 'load_config'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 618, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 212, in __init__
+    self.config = self.load_config()
+                  ^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'load_config'
+
+2024-11-17 15:34:23,180 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:34:23,180 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:34:23,183 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:34:23,183 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:34:23,183 - INFO - [main.py:612] - Starting FluxImageGenerator application
+2024-11-17 15:34:23,183 - INFO - [main.py:206] - Initializing FluxImageGenerator
+2024-11-17 15:34:23,183 - INFO - [main.py:209] - Starting FluxImageGenerator application
+2024-11-17 15:34:23,185 - CRITICAL - [main.py:621] - Application failed to start: 'FluxImageGenerator' object has no attribute 'load_config'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 618, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 212, in __init__
+    self.config = self.load_config()
+                  ^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'load_config'
+
+2024-11-17 15:37:50,325 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:37:50,325 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:37:50,328 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:37:50,329 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:37:50,329 - INFO - [main.py:719] - Starting FluxImageGenerator application
+2024-11-17 15:37:50,329 - INFO - [main.py:206] - Initializing FluxImageGenerator
+2024-11-17 15:37:50,329 - INFO - [main.py:209] - Starting FluxImageGenerator application
+2024-11-17 15:37:50,329 - DEBUG - [main.py:244] - Loading configuration
+2024-11-17 15:37:50,330 - INFO - [main.py:250] - Configuration loaded successfully
+2024-11-17 15:37:50,330 - DEBUG - [main.py:111] - Loading presets
+2024-11-17 15:37:50,330 - INFO - [main.py:108] - PresetManager initialized
+2024-11-17 15:37:50,330 - INFO - [main.py:175] - FluxAPI initialized
+2024-11-17 15:37:50,623 - DEBUG - [main.py:349] - Initializing variables
+2024-11-17 15:37:50,624 - DEBUG - [main.py:281] - Loading history
+2024-11-17 15:37:50,624 - ERROR - [main.py:287] - Error loading history: Expecting value: line 1 column 1 (char 0)
+2024-11-17 15:37:50,624 - DEBUG - [main.py:337] - Loading favorite prompts
+2024-11-17 15:37:50,625 - ERROR - [main.py:343] - Error loading favorites: Expecting value: line 1 column 1 (char 0)
+2024-11-17 15:37:50,625 - DEBUG - [main.py:373] - Creating GUI
+2024-11-17 15:37:50,625 - DEBUG - [main.py:393] - Creating generator tab
+2024-11-17 15:37:50,953 - CRITICAL - [main.py:728] - Application failed to start: 'FluxImageGenerator' object has no attribute 'create_parameter_widgets'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 725, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 234, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 379, in create_gui
+    self.create_generator_tab()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 420, in create_generator_tab
+    self.create_parameter_widgets(params_frame)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'create_parameter_widgets'
+
+2024-11-17 15:41:08,808 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:41:08,808 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:41:08,811 - INFO - [main.py:51] - Logging initialized
+2024-11-17 15:41:08,811 - INFO - [main.py:52] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:41:08,811 - INFO - [main.py:745] - Starting FluxImageGenerator application
+2024-11-17 15:41:08,811 - INFO - [main.py:206] - Initializing FluxImageGenerator
+2024-11-17 15:41:08,811 - INFO - [main.py:209] - Starting FluxImageGenerator application
+2024-11-17 15:41:08,811 - DEBUG - [main.py:244] - Loading configuration
+2024-11-17 15:41:08,812 - INFO - [main.py:250] - Configuration loaded successfully
+2024-11-17 15:41:08,812 - DEBUG - [main.py:111] - Loading presets
+2024-11-17 15:41:08,812 - INFO - [main.py:108] - PresetManager initialized
+2024-11-17 15:41:08,812 - INFO - [main.py:175] - FluxAPI initialized
+2024-11-17 15:41:09,094 - DEBUG - [main.py:349] - Initializing variables
+2024-11-17 15:41:09,094 - DEBUG - [main.py:281] - Loading history
+2024-11-17 15:41:09,095 - ERROR - [main.py:287] - Error loading history: Expecting value: line 1 column 1 (char 0)
+2024-11-17 15:41:09,095 - DEBUG - [main.py:337] - Loading favorite prompts
+2024-11-17 15:41:09,095 - ERROR - [main.py:343] - Error loading favorites: Expecting value: line 1 column 1 (char 0)
+2024-11-17 15:41:09,095 - DEBUG - [main.py:373] - Creating GUI
+2024-11-17 15:41:09,095 - DEBUG - [main.py:419] - Creating generator tab
+2024-11-17 15:41:09,384 - DEBUG - [main.py:393] - Creating parameter widgets
+2024-11-17 15:41:09,705 - DEBUG - [main.py:465] - Creating batch tab
+2024-11-17 15:41:09,925 - CRITICAL - [main.py:754] - Application failed to start: 'FluxImageGenerator' object has no attribute 'start_batch_processing'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 751, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 234, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 380, in create_gui
+    self.create_batch_tab()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 489, in create_batch_tab
+    command=self.start_batch_processing).pack(fill=tk.X, padx=5, pady=5)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'start_batch_processing'
+
+2024-11-17 15:49:07,197 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:49:07,197 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:51:00,099 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:51:00,099 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:51:14,867 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:51:14,867 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:55:20,097 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:55:20,097 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:55:20,099 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:55:20,100 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:55:20,100 - INFO - [main.py:838] - Starting FluxImageGenerator application
+2024-11-17 15:55:20,100 - INFO - [main.py:215] - Initializing FluxImageGenerator
+2024-11-17 15:55:20,100 - INFO - [main.py:218] - Starting FluxImageGenerator application
+2024-11-17 15:55:20,100 - DEBUG - [main.py:268] - Loading configuration
+2024-11-17 15:55:20,100 - INFO - [main.py:274] - Configuration loaded successfully
+2024-11-17 15:55:20,101 - DEBUG - [main.py:120] - Loading presets
+2024-11-17 15:55:20,101 - INFO - [main.py:117] - PresetManager initialized
+2024-11-17 15:55:20,101 - INFO - [main.py:184] - FluxAPI initialized
+2024-11-17 15:55:20,383 - DEBUG - [main.py:397] - Initializing variables
+2024-11-17 15:55:20,383 - DEBUG - [main.py:314] - Loading history
+2024-11-17 15:55:20,384 - DEBUG - [main.py:378] - Loading favorite prompts
+2024-11-17 15:55:20,384 - DEBUG - [main.py:421] - Creating GUI
+2024-11-17 15:55:20,387 - CRITICAL - [main.py:847] - Application failed to start: 'FluxImageGenerator' object has no attribute 'create_generator_tab'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 844, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 246, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 427, in create_gui
+    self.create_generator_tab()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'create_generator_tab'
+
+2024-11-17 15:57:24,881 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:57:24,882 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:57:24,885 - INFO - [main.py:54] - Logging initialized
+2024-11-17 15:57:24,885 - INFO - [main.py:55] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 15:57:24,885 - INFO - [main.py:838] - Starting FluxImageGenerator application
+2024-11-17 15:57:24,885 - INFO - [main.py:215] - Initializing FluxImageGenerator
+2024-11-17 15:57:24,885 - INFO - [main.py:218] - Starting FluxImageGenerator application
+2024-11-17 15:57:24,886 - DEBUG - [main.py:268] - Loading configuration
+2024-11-17 15:57:24,886 - INFO - [main.py:274] - Configuration loaded successfully
+2024-11-17 15:57:24,886 - DEBUG - [main.py:120] - Loading presets
+2024-11-17 15:57:24,886 - INFO - [main.py:117] - PresetManager initialized
+2024-11-17 15:57:24,887 - INFO - [main.py:184] - FluxAPI initialized
+2024-11-17 15:57:25,170 - DEBUG - [main.py:439] - Initializing variables
+2024-11-17 15:57:25,171 - DEBUG - [main.py:356] - Loading history
+2024-11-17 15:57:25,171 - DEBUG - [main.py:420] - Loading favorite prompts
+2024-11-17 15:57:25,171 - DEBUG - [main.py:463] - Creating GUI
+2024-11-17 15:57:25,171 - DEBUG - [main.py:308] - Creating generator tab
+2024-11-17 15:57:25,464 - CRITICAL - [main.py:847] - Application failed to start: 'FluxImageGenerator' object has no attribute 'create_parameter_widgets'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 844, in <module>
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 246, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 469, in create_gui
+    self.create_generator_tab()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 335, in create_generator_tab
+    self.create_parameter_widgets(params_frame)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'create_parameter_widgets'
+
+2024-11-17 16:11:57,156 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:11:57,156 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:11:57,156 - INFO - [main.py:820] - Starting FluxImageGenerator application
+2024-11-17 16:11:57,157 - INFO - [main.py:785] - Starting application
+2024-11-17 16:11:57,157 - CRITICAL - [main.py:794] - Application error: 'FluxImageGenerator' object has no attribute 'root'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 791, in run
+    self.root.mainloop()
+    ^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'root'
+
+2024-11-17 16:11:57,158 - CRITICAL - [main.py:829] - Application failed to start: 'FluxImageGenerator' object has no attribute 'root'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 827, in <module>
+    app.run()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 791, in run
+    self.root.mainloop()
+    ^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'root'
+
+2024-11-17 16:15:25,351 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:15:25,351 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:15:25,351 - INFO - [main.py:818] - Starting FluxImageGenerator application
+2024-11-17 16:15:38,931 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:15:38,931 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:15:38,931 - INFO - [main.py:818] - Starting FluxImageGenerator application
+2024-11-17 16:17:05,929 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:17:05,929 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:17:05,930 - INFO - [main.py:805] - Starting FluxImageGenerator application
+2024-11-17 16:17:05,932 - CRITICAL - [main.py:810] - Application failed to start: name 'logger' is not defined
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 808, in main
+    app.run()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 787, in run
+    logger.info("Starting application")
+    ^^^^^^
+NameError: name 'logger' is not defined
+
+2024-11-17 16:25:52,938 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:25:52,939 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:25:52,939 - INFO - [main.py:755] - Starting FluxImageGenerator application
+2024-11-17 16:25:52,939 - INFO - [main.py:173] - Initializing FluxImageGenerator
+2024-11-17 16:25:52,939 - DEBUG - [main.py:250] - Loading configuration
+2024-11-17 16:25:52,939 - INFO - [main.py:256] - Configuration loaded successfully
+2024-11-17 16:25:52,940 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:25:52,940 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:25:53,209 - DEBUG - [main.py:402] - Initializing variables
+2024-11-17 16:25:53,210 - DEBUG - [main.py:331] - Loading history
+2024-11-17 16:25:53,210 - DEBUG - [main.py:385] - Loading favorite prompts
+2024-11-17 16:25:53,210 - DEBUG - [main.py:426] - Creating GUI
+2024-11-17 16:25:53,210 - DEBUG - [main.py:286] - Creating generator tab
+2024-11-17 16:25:53,558 - DEBUG - [main.py:474] - Creating batch tab
+2024-11-17 16:25:53,987 - DEBUG - [main.py:513] - Creating gallery tab
+2024-11-17 16:25:53,991 - DEBUG - [main.py:526] - Creating settings tab
+2024-11-17 16:25:54,020 - CRITICAL - [main.py:760] - Application failed to start: 'FluxImageGenerator' object has no attribute 'change_theme'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 757, in main
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 192, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 435, in create_gui
+    self.create_settings_tab()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 549, in create_settings_tab
+    command=self.change_theme).pack(side=tk.LEFT, padx=5)
+            ^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'change_theme'
+
+2024-11-17 16:28:04,246 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:28:04,246 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:28:04,246 - INFO - [main.py:827] - Starting FluxImageGenerator application
+2024-11-17 16:28:04,246 - INFO - [main.py:221] - Initializing FluxImageGenerator
+2024-11-17 16:28:04,246 - DEBUG - [main.py:298] - Loading configuration
+2024-11-17 16:28:04,247 - INFO - [main.py:304] - Configuration loaded successfully
+2024-11-17 16:28:04,247 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:28:04,247 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:28:04,524 - DEBUG - [main.py:452] - Initializing variables
+2024-11-17 16:28:04,524 - DEBUG - [main.py:378] - Loading history
+2024-11-17 16:28:04,524 - DEBUG - [main.py:432] - Loading favorite prompts
+2024-11-17 16:28:04,525 - DEBUG - [main.py:476] - Creating GUI
+2024-11-17 16:28:04,525 - DEBUG - [main.py:334] - Creating generator tab
+2024-11-17 16:28:04,894 - DEBUG - [main.py:540] - Creating batch tab
+2024-11-17 16:28:05,312 - DEBUG - [main.py:579] - Creating gallery tab
+2024-11-17 16:28:05,316 - DEBUG - [main.py:591] - Creating settings tab
+2024-11-17 16:28:05,357 - DEBUG - [main.py:496] - Creating menu
+2024-11-17 16:28:05,367 - DEBUG - [main.py:445] - Creating status bar
+2024-11-17 16:28:05,368 - INFO - [main.py:493] - GUI created successfully
+2024-11-17 16:28:05,368 - INFO - [main.py:392] - Starting worker threads
+2024-11-17 16:28:05,369 - INFO - [main.py:629] - Starting task queue processor
+2024-11-17 16:28:05,369 - INFO - [main.py:401] - Batch queue processor started
+2024-11-17 16:28:05,369 - INFO - [main.py:811] - Starting application
+2024-11-17 16:28:16,566 - INFO - [main.py:717] - Starting image generation
+2024-11-17 16:28:16,567 - INFO - [main.py:760] - Queueing generation task with prompt: a cat walking with snoop dog...
+2024-11-17 16:28:16,568 - INFO - [main.py:637] - Processing task: a cat walking with snoop dog...
+2024-11-17 16:28:16,570 - DEBUG - [main.py:655] - API parameters: {'prompt': 'a cat walking with snoop dog', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 16:28:16,571 - INFO - [main.py:154] - Generating image with model: flux-pro-1.1
+2024-11-17 16:28:16,576 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:17,484 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-pro-1.1 HTTP/11" 200 45
+2024-11-17 16:28:17,487 - INFO - [main.py:160] - Image generation task created: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:17,488 - INFO - [main.py:664] - Task submitted with ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:17,489 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:17,494 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:18,105 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:18,107 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:18,107 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:19,108 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:19,109 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:19,699 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:19,700 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:19,701 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:20,702 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:20,705 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:21,306 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:21,307 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:21,307 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:22,307 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:22,310 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:22,923 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:22,925 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:22,926 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:23,927 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:23,930 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:24,533 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:24,534 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:24,534 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:25,537 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:25,541 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:28:26,219 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1 HTTP/11" 404 22
+2024-11-17 16:28:26,221 - ERROR - [main.py:181] - API request failed: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:26,222 - ERROR - [main.py:695] - Error checking task status: 404 Client Error: Not Found for url: https://api.bfl.ml/v1/result/4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:27,223 - INFO - [main.py:171] - Fetching result for task ID: 4b5f3e0f-bb87-4039-add7-6f8f51fb98f1
+2024-11-17 16:28:27,226 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:31,796 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:33:31,796 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:33:31,796 - INFO - [main.py:828] - Starting FluxImageGenerator application
+2024-11-17 16:33:31,796 - INFO - [main.py:222] - Initializing FluxImageGenerator
+2024-11-17 16:33:31,796 - DEBUG - [main.py:299] - Loading configuration
+2024-11-17 16:33:31,797 - INFO - [main.py:305] - Configuration loaded successfully
+2024-11-17 16:33:31,797 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:33:31,798 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:33:32,062 - DEBUG - [main.py:453] - Initializing variables
+2024-11-17 16:33:32,063 - DEBUG - [main.py:379] - Loading history
+2024-11-17 16:33:32,063 - DEBUG - [main.py:433] - Loading favorite prompts
+2024-11-17 16:33:32,063 - DEBUG - [main.py:477] - Creating GUI
+2024-11-17 16:33:32,064 - DEBUG - [main.py:335] - Creating generator tab
+2024-11-17 16:33:32,397 - DEBUG - [main.py:541] - Creating batch tab
+2024-11-17 16:33:32,804 - DEBUG - [main.py:580] - Creating gallery tab
+2024-11-17 16:33:32,808 - DEBUG - [main.py:592] - Creating settings tab
+2024-11-17 16:33:32,845 - DEBUG - [main.py:497] - Creating menu
+2024-11-17 16:33:32,854 - DEBUG - [main.py:446] - Creating status bar
+2024-11-17 16:33:32,855 - INFO - [main.py:494] - GUI created successfully
+2024-11-17 16:33:32,856 - INFO - [main.py:393] - Starting worker threads
+2024-11-17 16:33:32,856 - INFO - [main.py:630] - Starting task queue processor
+2024-11-17 16:33:32,856 - INFO - [main.py:402] - Batch queue processor started
+2024-11-17 16:33:32,856 - INFO - [main.py:812] - Starting application
+2024-11-17 16:33:43,926 - INFO - [main.py:718] - Starting image generation
+2024-11-17 16:33:43,930 - INFO - [main.py:761] - Queueing generation task with prompt: a cat walking...
+2024-11-17 16:33:43,932 - INFO - [main.py:638] - Processing task: a cat walking...
+2024-11-17 16:33:43,935 - DEBUG - [main.py:656] - API parameters: {'prompt': 'a cat walking', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 16:33:43,935 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 16:33:43,939 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:44,799 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 16:33:44,800 - INFO - [main.py:160] - Image generation task created: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:44,801 - INFO - [main.py:665] - Task submitted with ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:44,804 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:44,807 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:45,398 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 78
+2024-11-17 16:33:46,399 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:46,402 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:47,020 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 78
+2024-11-17 16:33:48,021 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:48,023 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:48,821 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 78
+2024-11-17 16:33:49,824 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:49,827 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:50,430 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:51,432 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:51,436 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:52,035 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:53,037 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:53,041 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:53,637 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:54,640 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:54,643 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:55,232 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:56,235 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:56,238 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:56,847 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:57,850 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:57,853 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:33:58,728 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:33:59,731 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:33:59,734 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:00,389 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:01,391 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:01,394 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:02,000 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:03,002 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:03,005 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:03,618 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:04,621 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:04,625 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:05,239 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:06,242 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:06,245 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:06,869 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:07,872 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:07,875 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:08,485 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:09,488 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:09,489 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:10,079 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:11,082 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:11,085 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:11,683 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:12,685 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:12,688 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:13,290 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:14,294 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:14,299 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:14,900 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:15,902 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:15,905 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:16,504 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:17,506 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:17,509 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:18,130 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:19,133 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:19,136 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:19,874 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:20,876 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:20,880 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:21,498 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:22,500 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:22,504 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:23,107 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:24,110 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:24,113 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:24,711 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:25,712 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:25,715 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:26,322 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:27,325 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:27,328 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:27,921 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:28,924 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:28,927 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:29,522 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:30,525 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:30,528 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:31,167 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:32,168 - INFO - [main.py:171] - Fetching result for task ID: 20e073c7-fb43-4555-87b4-7d6c61072d1e
+2024-11-17 16:34:32,171 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:34:32,766 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=20e073c7-fb43-4555-87b4-7d6c61072d1e HTTP/11" 200 436
+2024-11-17 16:34:33,769 - ERROR - [main.py:701] - Task timed out
+2024-11-17 16:40:50,107 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:40:50,107 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:40:50,107 - INFO - [main.py:843] - Starting FluxImageGenerator application
+2024-11-17 16:40:50,107 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 16:40:50,107 - DEBUG - [main.py:300] - Loading configuration
+2024-11-17 16:40:50,108 - INFO - [main.py:306] - Configuration loaded successfully
+2024-11-17 16:40:50,108 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:40:50,108 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:40:50,401 - DEBUG - [main.py:454] - Initializing variables
+2024-11-17 16:40:50,402 - DEBUG - [main.py:380] - Loading history
+2024-11-17 16:40:50,402 - DEBUG - [main.py:434] - Loading favorite prompts
+2024-11-17 16:40:50,402 - DEBUG - [main.py:478] - Creating GUI
+2024-11-17 16:40:50,402 - DEBUG - [main.py:336] - Creating generator tab
+2024-11-17 16:40:50,839 - DEBUG - [main.py:542] - Creating batch tab
+2024-11-17 16:40:51,349 - DEBUG - [main.py:581] - Creating gallery tab
+2024-11-17 16:40:51,356 - DEBUG - [main.py:593] - Creating settings tab
+2024-11-17 16:40:51,383 - CRITICAL - [main.py:849] - Application failed to start: 'FluxImageGenerator' object has no attribute 'toggle_api_key_visibility'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 845, in main
+    app = FluxImageGenerator()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 242, in __init__
+    self.create_gui()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 487, in create_gui
+    self.create_settings_tab()
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 607, in create_settings_tab
+    command=self.toggle_api_key_visibility).pack(side=tk.RIGHT, padx=5)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'toggle_api_key_visibility'
+
+2024-11-17 16:42:46,416 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:42:46,416 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:42:46,416 - INFO - [main.py:822] - Starting FluxImageGenerator application
+2024-11-17 16:42:46,416 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 16:42:46,417 - DEBUG - [main.py:300] - Loading configuration
+2024-11-17 16:42:46,417 - INFO - [main.py:306] - Configuration loaded successfully
+2024-11-17 16:42:46,417 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:42:46,417 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:42:46,683 - DEBUG - [main.py:454] - Initializing variables
+2024-11-17 16:42:46,684 - DEBUG - [main.py:380] - Loading history
+2024-11-17 16:42:46,684 - DEBUG - [main.py:434] - Loading favorite prompts
+2024-11-17 16:42:46,684 - DEBUG - [main.py:478] - Creating GUI
+2024-11-17 16:42:46,684 - DEBUG - [main.py:336] - Creating generator tab
+2024-11-17 16:42:47,021 - DEBUG - [main.py:542] - Creating batch tab
+2024-11-17 16:42:47,450 - DEBUG - [main.py:581] - Creating gallery tab
+2024-11-17 16:42:47,455 - DEBUG - [main.py:593] - Creating settings tab
+2024-11-17 16:42:47,497 - DEBUG - [main.py:498] - Creating menu
+2024-11-17 16:42:47,515 - DEBUG - [main.py:447] - Creating status bar
+2024-11-17 16:42:47,517 - INFO - [main.py:495] - GUI created successfully
+2024-11-17 16:42:47,518 - INFO - [main.py:394] - Starting worker threads
+2024-11-17 16:42:47,519 - INFO - [main.py:631] - Starting task queue processor
+2024-11-17 16:42:47,519 - INFO - [main.py:403] - Batch queue processor started
+2024-11-17 16:42:47,520 - INFO - [main.py:806] - Starting application
+2024-11-17 16:43:03,952 - INFO - [main.py:708] - Starting image generation
+2024-11-17 16:43:03,953 - INFO - [main.py:751] - Queueing generation task with prompt: a cat  on the street...
+2024-11-17 16:43:03,954 - INFO - [main.py:639] - Processing task: a cat  on the street...
+2024-11-17 16:43:03,955 - DEBUG - [main.py:657] - API parameters: {'prompt': 'a cat  on the street', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 16:43:03,956 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 16:43:03,960 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:43:04,766 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 16:43:04,768 - INFO - [main.py:160] - Image generation task created: e2449f91-9871-4e71-bebc-0ee2067f21dd
+2024-11-17 16:43:04,769 - INFO - [main.py:666] - Task submitted with ID: e2449f91-9871-4e71-bebc-0ee2067f21dd
+2024-11-17 16:43:04,770 - INFO - [main.py:171] - Fetching result for task ID: e2449f91-9871-4e71-bebc-0ee2067f21dd
+2024-11-17 16:43:04,775 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:43:05,379 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=e2449f91-9871-4e71-bebc-0ee2067f21dd HTTP/11" 200 78
+2024-11-17 16:43:05,380 - DEBUG - [main.py:177] - API response: {'id': 'e2449f91-9871-4e71-bebc-0ee2067f21dd', 'status': 'Pending', 'result': None}
+2024-11-17 16:43:05,380 - DEBUG - [main.py:673] - Task status: Pending
+2024-11-17 16:43:05,381 - INFO - [main.py:689] - Image is still processing.
+2024-11-17 16:43:05,385 - ERROR - [main.py:696] - Task processing error: 'FluxImageGenerator' object has no attribute 'pending_tasks'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 691, in process_task_queue
+    self.pending_tasks.append(task_id)
+    ^^^^^^^^^^^^^^^^^^
+AttributeError: 'FluxImageGenerator' object has no attribute 'pending_tasks'
+
+2024-11-17 16:46:12,688 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:46:12,688 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:46:12,688 - INFO - [main.py:865] - Starting FluxImageGenerator application
+2024-11-17 16:46:12,688 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 16:46:12,689 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 16:46:12,689 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 16:46:12,689 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:46:12,690 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:46:12,960 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 16:46:12,961 - DEBUG - [main.py:381] - Loading history
+2024-11-17 16:46:12,961 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 16:46:12,961 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 16:46:12,961 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 16:46:13,315 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 16:46:13,750 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 16:46:13,754 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 16:46:13,792 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 16:46:13,801 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 16:46:13,802 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 16:46:13,808 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 16:46:13,808 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 16:46:13,809 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 16:46:13,809 - INFO - [main.py:849] - Starting application
+2024-11-17 16:46:27,475 - INFO - [main.py:713] - Starting image generation
+2024-11-17 16:46:27,475 - INFO - [main.py:756] - Queueing generation task with prompt: a cat walking on the street...
+2024-11-17 16:46:27,476 - INFO - [main.py:644] - Processing task: a cat walking on the street...
+2024-11-17 16:46:27,478 - DEBUG - [main.py:662] - API parameters: {'prompt': 'a cat walking on the street', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 16:46:27,480 - INFO - [main.py:154] - Generating image with model: flux-pro-1.1
+2024-11-17 16:46:27,485 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:46:28,167 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-pro-1.1 HTTP/11" 200 45
+2024-11-17 16:46:28,169 - INFO - [main.py:160] - Image generation task created: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:46:28,170 - INFO - [main.py:671] - Task submitted with ID: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:46:28,171 - INFO - [main.py:171] - Fetching result for task ID: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:46:28,175 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:46:28,774 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=ea2d3a0e-d1df-4a68-a859-c15548b50c3b HTTP/11" 200 78
+2024-11-17 16:46:28,776 - DEBUG - [main.py:177] - API response: {'id': 'ea2d3a0e-d1df-4a68-a859-c15548b50c3b', 'status': 'Pending', 'result': None}
+2024-11-17 16:46:28,777 - DEBUG - [main.py:678] - Task status: Pending
+2024-11-17 16:46:28,777 - INFO - [main.py:694] - Image is still processing.
+2024-11-17 16:47:52,070 - INFO - [main.py:171] - Fetching result for task ID: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:47:52,088 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:47:52,697 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=ea2d3a0e-d1df-4a68-a859-c15548b50c3b HTTP/11" 200 448
+2024-11-17 16:47:52,699 - DEBUG - [main.py:177] - API response: {'id': 'ea2d3a0e-d1df-4a68-a859-c15548b50c3b', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/ef35b98547b44fb6a0b2dcc703d5be1a/sample.jpeg?se=2024-11-17T14%3A56%3A29Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=/LnXjskpfTQHvLVmAw7XnSMc6WTVfMKcPUbGy7OcsLU%3D', 'prompt': 'a cat walking on the street', 'seed': 3326608245, 'start_time': 1731854787.9943347, 'end_time': 1731854789.525257, 'duration': 1.5309224128723145}}
+2024-11-17 16:47:52,700 - DEBUG - [main.py:817] - Checking task ea2d3a0e-d1df-4a68-a859-c15548b50c3b status: Ready
+2024-11-17 16:47:52,700 - INFO - [main.py:836] - Task ea2d3a0e-d1df-4a68-a859-c15548b50c3b is still processing.
+2024-11-17 16:47:53,708 - INFO - [main.py:171] - Fetching result for task ID: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:47:53,710 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:47:54,307 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=ea2d3a0e-d1df-4a68-a859-c15548b50c3b HTTP/11" 200 448
+2024-11-17 16:47:54,308 - DEBUG - [main.py:177] - API response: {'id': 'ea2d3a0e-d1df-4a68-a859-c15548b50c3b', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/ef35b98547b44fb6a0b2dcc703d5be1a/sample.jpeg?se=2024-11-17T14%3A56%3A29Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=/LnXjskpfTQHvLVmAw7XnSMc6WTVfMKcPUbGy7OcsLU%3D', 'prompt': 'a cat walking on the street', 'seed': 3326608245, 'start_time': 1731854787.9943347, 'end_time': 1731854789.525257, 'duration': 1.5309224128723145}}
+2024-11-17 16:47:54,308 - DEBUG - [main.py:817] - Checking task ea2d3a0e-d1df-4a68-a859-c15548b50c3b status: Ready
+2024-11-17 16:47:54,309 - INFO - [main.py:836] - Task ea2d3a0e-d1df-4a68-a859-c15548b50c3b is still processing.
+2024-11-17 16:50:39,782 - INFO - [main.py:171] - Fetching result for task ID: ea2d3a0e-d1df-4a68-a859-c15548b50c3b
+2024-11-17 16:50:39,785 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:50:40,395 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=ea2d3a0e-d1df-4a68-a859-c15548b50c3b HTTP/11" 200 448
+2024-11-17 16:50:40,396 - DEBUG - [main.py:177] - API response: {'id': 'ea2d3a0e-d1df-4a68-a859-c15548b50c3b', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/ef35b98547b44fb6a0b2dcc703d5be1a/sample.jpeg?se=2024-11-17T14%3A56%3A29Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=/LnXjskpfTQHvLVmAw7XnSMc6WTVfMKcPUbGy7OcsLU%3D', 'prompt': 'a cat walking on the street', 'seed': 3326608245, 'start_time': 1731854787.9943347, 'end_time': 1731854789.525257, 'duration': 1.5309224128723145}}
+2024-11-17 16:50:40,397 - DEBUG - [main.py:817] - Checking task ea2d3a0e-d1df-4a68-a859-c15548b50c3b status: Ready
+2024-11-17 16:50:40,398 - INFO - [main.py:836] - Task ea2d3a0e-d1df-4a68-a859-c15548b50c3b is still processing.
+2024-11-17 16:57:39,899 - INFO - [main.py:89] - Logging initialized
+2024-11-17 16:57:39,899 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 16:57:39,899 - INFO - [main.py:869] - Starting FluxImageGenerator application
+2024-11-17 16:57:39,899 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 16:57:39,900 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 16:57:39,900 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 16:57:39,900 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 16:57:39,901 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 16:57:40,178 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 16:57:40,178 - DEBUG - [main.py:381] - Loading history
+2024-11-17 16:57:40,178 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 16:57:40,178 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 16:57:40,179 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 16:57:40,531 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 16:57:40,942 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 16:57:40,946 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 16:57:40,985 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 16:57:40,995 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 16:57:40,997 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 16:57:41,002 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 16:57:41,002 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 16:57:41,003 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 16:57:41,003 - INFO - [main.py:853] - Starting application
+2024-11-17 16:58:03,188 - INFO - [main.py:713] - Starting image generation
+2024-11-17 16:58:03,189 - INFO - [main.py:756] - Queueing generation task with prompt: a cat walking...
+2024-11-17 16:58:03,190 - INFO - [main.py:644] - Processing task: a cat walking...
+2024-11-17 16:58:03,192 - DEBUG - [main.py:662] - API parameters: {'prompt': 'a cat walking', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 16:58:03,194 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 16:58:03,204 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:58:04,263 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 16:58:04,264 - INFO - [main.py:160] - Image generation task created: 3d58108a-283b-459c-852b-39773c8e2db0
+2024-11-17 16:58:04,265 - INFO - [main.py:671] - Task submitted with ID: 3d58108a-283b-459c-852b-39773c8e2db0
+2024-11-17 16:58:04,265 - INFO - [main.py:171] - Fetching result for task ID: 3d58108a-283b-459c-852b-39773c8e2db0
+2024-11-17 16:58:04,268 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 16:58:04,877 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=3d58108a-283b-459c-852b-39773c8e2db0 HTTP/11" 200 78
+2024-11-17 16:58:04,878 - DEBUG - [main.py:177] - API response: {'id': '3d58108a-283b-459c-852b-39773c8e2db0', 'status': 'Pending', 'result': None}
+2024-11-17 16:58:04,880 - DEBUG - [main.py:676] - API response: {'id': '3d58108a-283b-459c-852b-39773c8e2db0', 'status': 'Pending', 'result': None}
+2024-11-17 16:58:04,880 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 16:58:04,881 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:02:20,555 - INFO - [main.py:171] - Fetching result for task ID: 3d58108a-283b-459c-852b-39773c8e2db0
+2024-11-17 17:02:20,557 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:02:21,170 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=3d58108a-283b-459c-852b-39773c8e2db0 HTTP/11" 200 435
+2024-11-17 17:02:21,172 - DEBUG - [main.py:177] - API response: {'id': '3d58108a-283b-459c-852b-39773c8e2db0', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/851ce95d3d01428baf730bad34c8bd61/sample.jpeg?se=2024-11-17T15%3A08%3A08Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=Rv/N8L6FNmRgvhFD/XQO6B%2BUyidkCqC6ImXG5PArnvU%3D', 'prompt': 'a cat walking', 'seed': 2663009361, 'start_time': 1731855484.0901432, 'end_time': 1731855488.971066, 'duration': 4.880922794342041}}
+2024-11-17 17:02:21,173 - DEBUG - [main.py:822] - Checking task 3d58108a-283b-459c-852b-39773c8e2db0 status: Ready
+2024-11-17 17:02:21,173 - INFO - [main.py:825] - Task 3d58108a-283b-459c-852b-39773c8e2db0 completed
+2024-11-17 17:02:21,174 - INFO - [main.py:775] - Saving image to: output/generated_20241117_170221.jpeg
+2024-11-17 17:02:21,177 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): bfldeliverysc.blob.core.windows.net:443
+2024-11-17 17:02:22,126 - DEBUG - [connectionpool.py:546] - https://bfldeliverysc.blob.core.windows.net:443 "GET /results/851ce95d3d01428baf730bad34c8bd61/sample.jpeg?se=2024-11-17T15%3A08%3A08Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=Rv/N8L6FNmRgvhFD/XQO6B%2BUyidkCqC6ImXG5PArnvU%3D HTTP/11" 200 255353
+2024-11-17 17:02:22,129 - ERROR - [main.py:806] - Error saving image: [Errno 13] Permission denied: 'output/generated_20241117_170221.jpeg'
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 784, in save_generated_image
+    with open(filepath, "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'output/generated_20241117_170221.jpeg'
+
+2024-11-17 17:05:09,195 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:05:09,195 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:05:09,195 - INFO - [main.py:869] - Starting FluxImageGenerator application
+2024-11-17 17:05:09,195 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 17:05:09,195 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 17:05:09,196 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 17:05:09,196 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:05:09,196 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:05:09,466 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 17:05:09,467 - DEBUG - [main.py:381] - Loading history
+2024-11-17 17:05:09,467 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 17:05:09,467 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 17:05:09,468 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 17:05:09,812 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 17:05:10,233 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 17:05:10,238 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 17:05:10,276 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 17:05:10,286 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 17:05:10,288 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 17:05:10,293 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 17:05:10,294 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 17:05:10,294 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 17:05:10,294 - INFO - [main.py:853] - Starting application
+2024-11-17 17:05:49,581 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:05:49,582 - INFO - [main.py:756] - Queueing generation task with prompt: a cat running across the street with snoop dog cha...
+2024-11-17 17:05:49,583 - INFO - [main.py:644] - Processing task: a cat running across the street with snoop dog cha...
+2024-11-17 17:05:49,583 - DEBUG - [main.py:662] - API parameters: {'prompt': 'a cat running across the street with snoop dog chasing it', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:05:49,585 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 17:05:49,590 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:05:50,283 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 17:05:50,284 - INFO - [main.py:160] - Image generation task created: a2f55a61-9b4b-443c-8924-ccc0a01dadff
+2024-11-17 17:05:50,285 - INFO - [main.py:671] - Task submitted with ID: a2f55a61-9b4b-443c-8924-ccc0a01dadff
+2024-11-17 17:05:50,286 - INFO - [main.py:171] - Fetching result for task ID: a2f55a61-9b4b-443c-8924-ccc0a01dadff
+2024-11-17 17:05:50,291 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:05:51,101 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=a2f55a61-9b4b-443c-8924-ccc0a01dadff HTTP/11" 200 78
+2024-11-17 17:05:51,103 - DEBUG - [main.py:177] - API response: {'id': 'a2f55a61-9b4b-443c-8924-ccc0a01dadff', 'status': 'Pending', 'result': None}
+2024-11-17 17:05:51,104 - DEBUG - [main.py:676] - API response: {'id': 'a2f55a61-9b4b-443c-8924-ccc0a01dadff', 'status': 'Pending', 'result': None}
+2024-11-17 17:05:51,105 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:05:51,106 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:08:10,778 - INFO - [main.py:171] - Fetching result for task ID: a2f55a61-9b4b-443c-8924-ccc0a01dadff
+2024-11-17 17:08:10,780 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:08:11,453 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=a2f55a61-9b4b-443c-8924-ccc0a01dadff HTTP/11" 200 477
+2024-11-17 17:08:11,455 - DEBUG - [main.py:177] - API response: {'id': 'a2f55a61-9b4b-443c-8924-ccc0a01dadff', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/4a6d8b21e69a4803962e1dab9f694ff8/sample.jpeg?se=2024-11-17T15%3A15%3A54Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=2tqx3Ua53ZotxoV4R8Ot/pjPSJQBnpXlM10STe4MibU%3D', 'prompt': 'a cat running across the street with snoop dog chasing it', 'seed': 1839582826, 'start_time': 1731855950.0854297, 'end_time': 1731855955.022386, 'duration': 4.936956405639648}}
+2024-11-17 17:08:11,456 - DEBUG - [main.py:822] - Checking task a2f55a61-9b4b-443c-8924-ccc0a01dadff status: Ready
+2024-11-17 17:08:11,456 - INFO - [main.py:825] - Task a2f55a61-9b4b-443c-8924-ccc0a01dadff completed
+2024-11-17 17:08:11,457 - INFO - [main.py:775] - Saving image to: output/generated_20241117_170811.jpeg
+2024-11-17 17:08:11,461 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): bfldeliverysc.blob.core.windows.net:443
+2024-11-17 17:08:12,305 - DEBUG - [connectionpool.py:546] - https://bfldeliverysc.blob.core.windows.net:443 "GET /results/4a6d8b21e69a4803962e1dab9f694ff8/sample.jpeg?se=2024-11-17T15%3A15%3A54Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=2tqx3Ua53ZotxoV4R8Ot/pjPSJQBnpXlM10STe4MibU%3D HTTP/11" 200 288293
+2024-11-17 17:08:13,022 - INFO - [main.py:803] - Image saved successfully
+2024-11-17 17:08:46,154 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:08:46,155 - INFO - [main.py:756] - Queueing generation task with prompt: a cat running across the street with snoop dog cha...
+2024-11-17 17:08:46,156 - INFO - [main.py:644] - Processing task: a cat running across the street with snoop dog cha...
+2024-11-17 17:08:46,157 - DEBUG - [main.py:662] - API parameters: {'prompt': 'a cat running across the street with snoop dog chasing it', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 5, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:08:46,158 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 17:08:46,160 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:08:47,229 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 17:08:47,229 - INFO - [main.py:160] - Image generation task created: 52d173fe-5e3d-4796-a45a-ab34f06174ee
+2024-11-17 17:08:47,230 - INFO - [main.py:671] - Task submitted with ID: 52d173fe-5e3d-4796-a45a-ab34f06174ee
+2024-11-17 17:08:47,230 - INFO - [main.py:171] - Fetching result for task ID: 52d173fe-5e3d-4796-a45a-ab34f06174ee
+2024-11-17 17:08:47,232 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:08:47,840 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=52d173fe-5e3d-4796-a45a-ab34f06174ee HTTP/11" 200 78
+2024-11-17 17:08:47,841 - DEBUG - [main.py:177] - API response: {'id': '52d173fe-5e3d-4796-a45a-ab34f06174ee', 'status': 'Pending', 'result': None}
+2024-11-17 17:08:47,842 - DEBUG - [main.py:676] - API response: {'id': '52d173fe-5e3d-4796-a45a-ab34f06174ee', 'status': 'Pending', 'result': None}
+2024-11-17 17:08:47,842 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:08:47,842 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:09:51,052 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:09:51,053 - INFO - [main.py:756] - Queueing generation task with prompt: a cat running across the street with snoop dog cha...
+2024-11-17 17:09:51,054 - INFO - [main.py:644] - Processing task: a cat running across the street with snoop dog cha...
+2024-11-17 17:09:51,055 - DEBUG - [main.py:662] - API parameters: {'prompt': 'a cat running across the street with snoop dog chasing it', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 5, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:09:51,057 - INFO - [main.py:154] - Generating image with model: flux-dev
+2024-11-17 17:09:51,063 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:09:51,752 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 200 45
+2024-11-17 17:09:51,753 - INFO - [main.py:160] - Image generation task created: ab212bf7-0a1b-4e46-97f1-956bca8738bf
+2024-11-17 17:09:51,754 - INFO - [main.py:671] - Task submitted with ID: ab212bf7-0a1b-4e46-97f1-956bca8738bf
+2024-11-17 17:09:51,755 - INFO - [main.py:171] - Fetching result for task ID: ab212bf7-0a1b-4e46-97f1-956bca8738bf
+2024-11-17 17:09:51,758 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:09:52,390 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=ab212bf7-0a1b-4e46-97f1-956bca8738bf HTTP/11" 200 78
+2024-11-17 17:09:52,392 - DEBUG - [main.py:177] - API response: {'id': 'ab212bf7-0a1b-4e46-97f1-956bca8738bf', 'status': 'Pending', 'result': None}
+2024-11-17 17:09:52,393 - DEBUG - [main.py:676] - API response: {'id': 'ab212bf7-0a1b-4e46-97f1-956bca8738bf', 'status': 'Pending', 'result': None}
+2024-11-17 17:09:52,394 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:09:52,395 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:11:42,643 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:11:42,643 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:11:42,643 - INFO - [main.py:869] - Starting FluxImageGenerator application
+2024-11-17 17:11:42,644 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 17:11:42,644 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 17:11:42,644 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 17:11:42,645 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:11:42,645 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:11:42,917 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 17:11:42,918 - DEBUG - [main.py:381] - Loading history
+2024-11-17 17:11:42,918 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 17:11:42,918 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 17:11:42,919 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 17:11:43,291 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 17:11:43,749 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 17:11:43,788 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 17:11:43,828 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 17:11:43,835 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 17:11:43,837 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 17:11:43,844 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 17:11:43,845 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 17:11:43,845 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 17:11:43,845 - INFO - [main.py:853] - Starting application
+2024-11-17 17:12:27,649 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:12:27,650 - INFO - [main.py:756] - Queueing generation task with prompt: donald trump and nelson mandela waving flaga...
+2024-11-17 17:12:27,650 - INFO - [main.py:644] - Processing task: donald trump and nelson mandela waving flaga...
+2024-11-17 17:12:27,651 - DEBUG - [main.py:662] - API parameters: {'prompt': 'donald trump and nelson mandela waving flaga', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 5, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:12:27,655 - INFO - [main.py:154] - Generating image with model: flux-pro-1.1
+2024-11-17 17:12:27,665 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:12:28,339 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-pro-1.1 HTTP/11" 200 45
+2024-11-17 17:12:28,340 - INFO - [main.py:160] - Image generation task created: 86639cc1-7a99-463c-9efa-89ecaa5e4262
+2024-11-17 17:12:28,340 - INFO - [main.py:671] - Task submitted with ID: 86639cc1-7a99-463c-9efa-89ecaa5e4262
+2024-11-17 17:12:28,340 - INFO - [main.py:171] - Fetching result for task ID: 86639cc1-7a99-463c-9efa-89ecaa5e4262
+2024-11-17 17:12:28,342 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:12:28,935 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=86639cc1-7a99-463c-9efa-89ecaa5e4262 HTTP/11" 200 78
+2024-11-17 17:12:28,937 - DEBUG - [main.py:177] - API response: {'id': '86639cc1-7a99-463c-9efa-89ecaa5e4262', 'status': 'Pending', 'result': None}
+2024-11-17 17:12:28,938 - DEBUG - [main.py:676] - API response: {'id': '86639cc1-7a99-463c-9efa-89ecaa5e4262', 'status': 'Pending', 'result': None}
+2024-11-17 17:12:28,939 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:12:28,940 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:13:26,317 - INFO - [main.py:171] - Fetching result for task ID: 86639cc1-7a99-463c-9efa-89ecaa5e4262
+2024-11-17 17:13:26,320 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:13:26,926 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=86639cc1-7a99-463c-9efa-89ecaa5e4262 HTTP/11" 200 468
+2024-11-17 17:13:26,928 - DEBUG - [main.py:177] - API response: {'id': '86639cc1-7a99-463c-9efa-89ecaa5e4262', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/11c72299fae045aaa4038f676ba7010d/sample.jpeg?se=2024-11-17T15%3A22%3A29Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=14uxc01Yo%2BPzZKfeW1wqOyxLFs82xqi3yDUQecK1h1s%3D', 'prompt': 'donald trump and nelson mandela waving flaga', 'seed': 1211825145, 'start_time': 1731856348.1663053, 'end_time': 1731856349.7332368, 'duration': 1.5669314861297607}}
+2024-11-17 17:13:26,929 - DEBUG - [main.py:822] - Checking task 86639cc1-7a99-463c-9efa-89ecaa5e4262 status: Ready
+2024-11-17 17:13:26,930 - INFO - [main.py:825] - Task 86639cc1-7a99-463c-9efa-89ecaa5e4262 completed
+2024-11-17 17:13:26,930 - INFO - [main.py:775] - Saving image to: output/generated_20241117_171326.jpeg
+2024-11-17 17:13:26,935 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): bfldeliverysc.blob.core.windows.net:443
+2024-11-17 17:13:27,751 - DEBUG - [connectionpool.py:546] - https://bfldeliverysc.blob.core.windows.net:443 "GET /results/11c72299fae045aaa4038f676ba7010d/sample.jpeg?se=2024-11-17T15%3A22%3A29Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=14uxc01Yo%2BPzZKfeW1wqOyxLFs82xqi3yDUQecK1h1s%3D HTTP/11" 200 305024
+2024-11-17 17:13:28,573 - INFO - [main.py:803] - Image saved successfully
+2024-11-17 17:13:57,721 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:13:57,721 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:13:57,721 - INFO - [main.py:869] - Starting FluxImageGenerator application
+2024-11-17 17:13:57,721 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 17:13:57,721 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 17:13:57,722 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 17:13:57,722 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:13:57,722 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:13:57,992 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 17:13:57,993 - DEBUG - [main.py:381] - Loading history
+2024-11-17 17:13:57,993 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 17:13:57,993 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 17:13:57,993 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 17:13:58,362 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 17:13:58,833 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 17:13:58,878 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 17:13:58,918 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 17:13:58,926 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 17:13:58,928 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 17:13:58,932 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 17:13:58,933 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 17:13:58,934 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 17:13:58,934 - INFO - [main.py:853] - Starting application
+2024-11-17 17:14:27,779 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:14:27,779 - INFO - [main.py:756] - Queueing generation task with prompt: Donald trump and nelson mandela waving flags...
+2024-11-17 17:14:27,780 - INFO - [main.py:644] - Processing task: Donald trump and nelson mandela waving flags...
+2024-11-17 17:14:27,782 - DEBUG - [main.py:662] - API parameters: {'prompt': 'Donald trump and nelson mandela waving flags', 'width': 1024, 'height': 768, 'safety_tolerance': 0, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:14:27,783 - INFO - [main.py:154] - Generating image with model: flux-pro-1.1-ultra
+2024-11-17 17:14:27,789 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:14:28,474 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-pro-1.1-ultra HTTP/11" 200 45
+2024-11-17 17:14:28,476 - INFO - [main.py:160] - Image generation task created: 34a32130-5052-4930-8afe-d2c0911fc3c5
+2024-11-17 17:14:28,476 - INFO - [main.py:671] - Task submitted with ID: 34a32130-5052-4930-8afe-d2c0911fc3c5
+2024-11-17 17:14:28,477 - INFO - [main.py:171] - Fetching result for task ID: 34a32130-5052-4930-8afe-d2c0911fc3c5
+2024-11-17 17:14:28,482 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:14:29,090 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=34a32130-5052-4930-8afe-d2c0911fc3c5 HTTP/11" 200 78
+2024-11-17 17:14:29,092 - DEBUG - [main.py:177] - API response: {'id': '34a32130-5052-4930-8afe-d2c0911fc3c5', 'status': 'Pending', 'result': None}
+2024-11-17 17:14:29,093 - DEBUG - [main.py:676] - API response: {'id': '34a32130-5052-4930-8afe-d2c0911fc3c5', 'status': 'Pending', 'result': None}
+2024-11-17 17:14:29,093 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:14:29,094 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:14:32,065 - INFO - [main.py:713] - Starting image generation
+2024-11-17 17:14:32,065 - INFO - [main.py:756] - Queueing generation task with prompt: Donald trump and nelson mandela waving flags...
+2024-11-17 17:14:32,066 - INFO - [main.py:644] - Processing task: Donald trump and nelson mandela waving flags...
+2024-11-17 17:14:32,068 - DEBUG - [main.py:662] - API parameters: {'prompt': 'Donald trump and nelson mandela waving flags', 'width': 1024, 'height': 768, 'safety_tolerance': 0, 'guidance': 2.5, 'steps': 5, 'prompt_upsampling': False, 'output_format': 'jpeg'}
+2024-11-17 17:14:32,070 - INFO - [main.py:154] - Generating image with model: flux-pro-1.1-ultra
+2024-11-17 17:14:32,074 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:14:32,669 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-pro-1.1-ultra HTTP/11" 200 45
+2024-11-17 17:14:32,670 - INFO - [main.py:160] - Image generation task created: 142cd860-2628-4655-85e3-58b97637682b
+2024-11-17 17:14:32,671 - INFO - [main.py:671] - Task submitted with ID: 142cd860-2628-4655-85e3-58b97637682b
+2024-11-17 17:14:32,672 - INFO - [main.py:171] - Fetching result for task ID: 142cd860-2628-4655-85e3-58b97637682b
+2024-11-17 17:14:32,676 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:14:33,268 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=142cd860-2628-4655-85e3-58b97637682b HTTP/11" 200 78
+2024-11-17 17:14:33,270 - DEBUG - [main.py:177] - API response: {'id': '142cd860-2628-4655-85e3-58b97637682b', 'status': 'Pending', 'result': None}
+2024-11-17 17:14:33,271 - DEBUG - [main.py:676] - API response: {'id': '142cd860-2628-4655-85e3-58b97637682b', 'status': 'Pending', 'result': None}
+2024-11-17 17:14:33,272 - DEBUG - [main.py:677] - Task status: Pending
+2024-11-17 17:14:33,273 - INFO - [main.py:693] - Image is still processing.
+2024-11-17 17:17:04,854 - INFO - [main.py:171] - Fetching result for task ID: 34a32130-5052-4930-8afe-d2c0911fc3c5
+2024-11-17 17:17:04,857 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:17:05,476 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=34a32130-5052-4930-8afe-d2c0911fc3c5 HTTP/11" 200 360
+2024-11-17 17:17:05,478 - DEBUG - [main.py:177] - API response: {'id': '34a32130-5052-4930-8afe-d2c0911fc3c5', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/648e3c624f16430e92c615a0ba1ae5e4/sample.jpeg?se=2024-11-17T15%3A24%3A35Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=16Isw%2B/0CK8j9GOBP9ZIZZpogFRPTTyrakQ%2BZyaA204%3D', 'prompt': 'Donald trump and nelson mandela waving flags'}}
+2024-11-17 17:17:05,479 - DEBUG - [main.py:822] - Checking task 34a32130-5052-4930-8afe-d2c0911fc3c5 status: Ready
+2024-11-17 17:17:05,479 - INFO - [main.py:825] - Task 34a32130-5052-4930-8afe-d2c0911fc3c5 completed
+2024-11-17 17:17:05,480 - INFO - [main.py:775] - Saving image to: output/generated_20241117_171705.jpeg
+2024-11-17 17:17:05,483 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): bfldeliverysc.blob.core.windows.net:443
+2024-11-17 17:17:06,391 - DEBUG - [connectionpool.py:546] - https://bfldeliverysc.blob.core.windows.net:443 "GET /results/648e3c624f16430e92c615a0ba1ae5e4/sample.jpeg?se=2024-11-17T15%3A24%3A35Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=16Isw%2B/0CK8j9GOBP9ZIZZpogFRPTTyrakQ%2BZyaA204%3D HTTP/11" 200 200605
+2024-11-17 17:17:07,012 - INFO - [main.py:803] - Image saved successfully
+2024-11-17 17:17:07,124 - INFO - [main.py:171] - Fetching result for task ID: 142cd860-2628-4655-85e3-58b97637682b
+2024-11-17 17:17:07,126 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:17:07,726 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "GET /v1/get_result?id=142cd860-2628-4655-85e3-58b97637682b HTTP/11" 200 356
+2024-11-17 17:17:07,726 - DEBUG - [main.py:177] - API response: {'id': '142cd860-2628-4655-85e3-58b97637682b', 'status': 'Ready', 'result': {'sample': 'https://bfldeliverysc.blob.core.windows.net/results/0aa7296767e54b9dbc31ca2c8180e60d/sample.jpeg?se=2024-11-17T15%3A24%3A39Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=pabQl5DdxYFZXDa8GUvo69vCmVCqWloWjumVcMsdupA%3D', 'prompt': 'Donald trump and nelson mandela waving flags'}}
+2024-11-17 17:17:07,727 - DEBUG - [main.py:822] - Checking task 142cd860-2628-4655-85e3-58b97637682b status: Ready
+2024-11-17 17:17:07,727 - INFO - [main.py:825] - Task 142cd860-2628-4655-85e3-58b97637682b completed
+2024-11-17 17:17:07,727 - INFO - [main.py:775] - Saving image to: output/generated_20241117_171707.jpeg
+2024-11-17 17:17:07,729 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): bfldeliverysc.blob.core.windows.net:443
+2024-11-17 17:17:08,528 - DEBUG - [connectionpool.py:546] - https://bfldeliverysc.blob.core.windows.net:443 "GET /results/0aa7296767e54b9dbc31ca2c8180e60d/sample.jpeg?se=2024-11-17T15%3A24%3A39Z&sp=r&sv=2024-11-04&sr=b&rsct=image/jpeg&sig=pabQl5DdxYFZXDa8GUvo69vCmVCqWloWjumVcMsdupA%3D HTTP/11" 200 282766
+2024-11-17 17:17:09,168 - INFO - [main.py:803] - Image saved successfully
+2024-11-17 17:18:15,114 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:18:15,114 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:18:15,114 - INFO - [main.py:869] - Starting FluxImageGenerator application
+2024-11-17 17:18:15,115 - INFO - [main.py:223] - Initializing FluxImageGenerator
+2024-11-17 17:18:15,115 - DEBUG - [main.py:301] - Loading configuration
+2024-11-17 17:18:15,115 - INFO - [main.py:307] - Configuration loaded successfully
+2024-11-17 17:18:15,116 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:18:15,116 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:18:15,376 - DEBUG - [main.py:455] - Initializing variables
+2024-11-17 17:18:15,376 - DEBUG - [main.py:381] - Loading history
+2024-11-17 17:18:15,376 - DEBUG - [main.py:435] - Loading favorite prompts
+2024-11-17 17:18:15,377 - DEBUG - [main.py:479] - Creating GUI
+2024-11-17 17:18:15,377 - DEBUG - [main.py:337] - Creating generator tab
+2024-11-17 17:18:15,745 - DEBUG - [main.py:547] - Creating batch tab
+2024-11-17 17:18:16,226 - DEBUG - [main.py:586] - Creating gallery tab
+2024-11-17 17:18:16,293 - DEBUG - [main.py:598] - Creating settings tab
+2024-11-17 17:18:16,328 - DEBUG - [main.py:503] - Creating menu
+2024-11-17 17:18:16,335 - DEBUG - [main.py:448] - Creating status bar
+2024-11-17 17:18:16,337 - INFO - [main.py:496] - GUI created successfully
+2024-11-17 17:18:16,342 - INFO - [main.py:395] - Starting worker threads
+2024-11-17 17:18:16,343 - INFO - [main.py:636] - Starting task queue processor
+2024-11-17 17:18:16,343 - INFO - [main.py:404] - Batch queue processor started
+2024-11-17 17:18:16,343 - INFO - [main.py:853] - Starting application
+2024-11-17 17:26:29,629 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:26:29,629 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:26:29,629 - INFO - [main.py:943] - Starting FluxImageGenerator application
+2024-11-17 17:26:29,630 - INFO - [main.py:282] - Initializing FluxImageGenerator
+2024-11-17 17:26:29,630 - DEBUG - [main.py:360] - Loading configuration
+2024-11-17 17:26:29,630 - INFO - [main.py:366] - Configuration loaded successfully
+2024-11-17 17:26:29,631 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:26:29,631 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:26:29,897 - DEBUG - [main.py:514] - Initializing variables
+2024-11-17 17:26:29,898 - DEBUG - [main.py:440] - Loading history
+2024-11-17 17:26:29,898 - DEBUG - [main.py:494] - Loading favorite prompts
+2024-11-17 17:26:29,898 - DEBUG - [main.py:538] - Creating GUI
+2024-11-17 17:26:29,898 - DEBUG - [main.py:396] - Creating generator tab
+2024-11-17 17:26:30,270 - DEBUG - [main.py:606] - Creating batch tab
+2024-11-17 17:26:30,796 - DEBUG - [main.py:645] - Creating gallery tab
+2024-11-17 17:26:30,867 - DEBUG - [main.py:657] - Creating settings tab
+2024-11-17 17:26:30,908 - DEBUG - [main.py:562] - Creating menu
+2024-11-17 17:26:30,915 - DEBUG - [main.py:507] - Creating status bar
+2024-11-17 17:26:30,917 - INFO - [main.py:555] - GUI created successfully
+2024-11-17 17:26:30,921 - INFO - [main.py:454] - Starting worker threads
+2024-11-17 17:26:30,922 - INFO - [main.py:695] - Starting task queue processor
+2024-11-17 17:26:30,922 - INFO - [main.py:463] - Batch queue processor started
+2024-11-17 17:26:30,922 - INFO - [main.py:927] - Starting application
+2024-11-17 17:26:46,986 - INFO - [main.py:787] - Starting image generation
+2024-11-17 17:26:46,987 - ERROR - [main.py:835] - Error in generate_image: not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 803, in generate_image
+    if width % 32 != 0 or height % 32 != 0:
+       ~~~~~~^~~~
+TypeError: not all arguments converted during string formatting
+
+2024-11-17 17:30:40,541 - INFO - [main.py:89] - Logging initialized
+2024-11-17 17:30:40,542 - INFO - [main.py:90] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:30:40,542 - INFO - [main.py:957] - Starting FluxImageGenerator application
+2024-11-17 17:30:40,542 - INFO - [main.py:283] - Initializing FluxImageGenerator
+2024-11-17 17:30:40,542 - DEBUG - [main.py:361] - Loading configuration
+2024-11-17 17:30:40,543 - INFO - [main.py:367] - Configuration loaded successfully
+2024-11-17 17:30:40,543 - INFO - [main.py:102] - PresetManager initialized
+2024-11-17 17:30:40,543 - INFO - [main.py:150] - FluxAPI initialized
+2024-11-17 17:30:40,815 - DEBUG - [main.py:515] - Initializing variables
+2024-11-17 17:30:40,816 - DEBUG - [main.py:441] - Loading history
+2024-11-17 17:30:40,816 - DEBUG - [main.py:495] - Loading favorite prompts
+2024-11-17 17:30:40,816 - DEBUG - [main.py:539] - Creating GUI
+2024-11-17 17:30:40,817 - DEBUG - [main.py:397] - Creating generator tab
+2024-11-17 17:30:41,203 - DEBUG - [main.py:620] - Creating batch tab
+2024-11-17 17:30:41,879 - DEBUG - [main.py:659] - Creating gallery tab
+2024-11-17 17:30:41,948 - DEBUG - [main.py:671] - Creating settings tab
+2024-11-17 17:30:41,989 - DEBUG - [main.py:563] - Creating menu
+2024-11-17 17:30:41,997 - DEBUG - [main.py:508] - Creating status bar
+2024-11-17 17:30:41,998 - INFO - [main.py:556] - GUI created successfully
+2024-11-17 17:30:42,005 - INFO - [main.py:455] - Starting worker threads
+2024-11-17 17:30:42,006 - INFO - [main.py:709] - Starting task queue processor
+2024-11-17 17:30:42,006 - INFO - [main.py:464] - Batch queue processor started
+2024-11-17 17:30:42,006 - INFO - [main.py:941] - Starting application
+2024-11-17 17:30:56,591 - INFO - [main.py:801] - Starting image generation
+2024-11-17 17:30:56,594 - ERROR - [main.py:849] - Error in generate_image: not all arguments converted during string formatting
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 817, in generate_image
+    if width % 32 != 0 or height % 32 != 0:
+       ~~~~~~^~~~
+TypeError: not all arguments converted during string formatting
+
+2024-11-17 17:33:56,016 - INFO - [main.py:94] - Logging initialized
+2024-11-17 17:33:56,016 - INFO - [main.py:95] - Log file location: /home/julius/Documents/fluximageGenerator/logs/flux_generator.log
+2024-11-17 17:33:56,016 - INFO - [main.py:887] - Starting FluxImageGenerator application
+2024-11-17 17:33:56,016 - INFO - [main.py:235] - Initializing FluxImageGenerator
+2024-11-17 17:33:56,016 - DEBUG - [main.py:270] - Loading configuration
+2024-11-17 17:33:56,017 - INFO - [main.py:276] - Configuration loaded successfully
+2024-11-17 17:33:56,017 - INFO - [main.py:110] - PresetManager initialized
+2024-11-17 17:33:56,017 - INFO - [main.py:157] - FluxAPI initialized
+2024-11-17 17:33:56,284 - DEBUG - [main.py:306] - Initializing variables
+2024-11-17 17:33:56,284 - DEBUG - [main.py:668] - Loading history
+2024-11-17 17:33:56,285 - DEBUG - [main.py:682] - Loading favorite prompts
+2024-11-17 17:33:56,285 - DEBUG - [main.py:330] - Creating GUI
+2024-11-17 17:33:56,285 - DEBUG - [main.py:350] - Creating generator tab
+2024-11-17 17:33:56,813 - DEBUG - [main.py:443] - Creating batch tab
+2024-11-17 17:33:57,367 - DEBUG - [main.py:482] - Creating gallery tab
+2024-11-17 17:33:57,500 - DEBUG - [main.py:494] - Creating settings tab
+2024-11-17 17:33:57,565 - DEBUG - [main.py:524] - Creating menu
+2024-11-17 17:33:57,578 - DEBUG - [main.py:532] - Creating status bar
+2024-11-17 17:33:57,579 - INFO - [main.py:347] - GUI created successfully
+2024-11-17 17:33:57,580 - INFO - [main.py:540] - Starting worker threads
+2024-11-17 17:33:57,580 - INFO - [main.py:549] - Starting task queue processor
+2024-11-17 17:33:57,582 - INFO - [main.py:637] - Batch queue processor started
+2024-11-17 17:33:57,582 - INFO - [main.py:867] - Starting application
+2024-11-17 17:34:15,454 - INFO - [main.py:716] - Starting image generation
+2024-11-17 17:34:15,455 - INFO - [main.py:774] - Queueing generation task with prompt: a truck and a cat...
+2024-11-17 17:34:15,455 - INFO - [main.py:557] - Processing task: a truck and a cat...
+2024-11-17 17:34:15,458 - DEBUG - [main.py:575] - API parameters: {'prompt': 'a truck and a cat', 'width': 1024, 'height': 768, 'safety_tolerance': 2, 'guidance': 2.5, 'steps': 40, 'prompt_upsampling': False, 'output_format': 'jpeg', 'seed': 1}
+2024-11-17 17:34:15,459 - INFO - [main.py:161] - Generating image with model: flux-dev
+2024-11-17 17:34:15,467 - DEBUG - [connectionpool.py:1051] - Starting new HTTPS connection (1): api.bfl.ml:443
+2024-11-17 17:34:16,228 - DEBUG - [connectionpool.py:546] - https://api.bfl.ml:443 "POST /v1/flux-dev HTTP/11" 402 33
+2024-11-17 17:34:16,229 - ERROR - [main.py:173] - API request failed: 402 Client Error: Payment Required for url: https://api.bfl.ml/v1/flux-dev
+2024-11-17 17:34:16,233 - ERROR - [main.py:627] - Task processing error: 402 Client Error: Payment Required for url: https://api.bfl.ml/v1/flux-dev
+Traceback (most recent call last):
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 579, in process_task_queue
+    task_id = self.api.generate_image(
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/julius/Documents/fluximageGenerator/main.py", line 165, in generate_image
+    response.raise_for_status()
+  File "/home/julius/Documents/fluximageGenerator/venv/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 402 Client Error: Payment Required for url: https://api.bfl.ml/v1/flux-dev
+
