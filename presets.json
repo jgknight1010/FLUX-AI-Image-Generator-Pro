@@ -2,7 +2,7 @@
   "Default": {
     "width": 1024,
     "height": 768,
-    "safety_tolerance": 2,
+    "safety_tolerance": 5,
     "guidance": 2.5,
     "steps": 40
   },
